@@ -17,11 +17,11 @@ If you face any problem in running this code, you can contact us at {pragyan1816
 ## Citation
 If you find this work useful, please consider citing it as:
 ```
-@article{Agrawal2021TCAS,
+@INPROCEEDINGS{Agrawal2021TCAS,
   title={Defending Touch-based Continuous Authentication Systems from Active Adversaries Using Generative Adversarial Networks},
   author={Agrawal, Mohit and Mehrotra, Pragyan and Kumar, Rajesh and Shah, Rajiv Ratn},
-  journal={arXiv},
-  year={2021}
+  booktitle={IJCB},  
+  year={2021},
 }
 ```
 
