@@ -9,7 +9,7 @@ pip install -r requirement.txt
 ```
 
 ## Experiments
-All the experiments can be found in the `Coming Soon` notebook. 
+All the experiments can be found in the files. 
 
 ## Contact
 If you face any problem in running this code, you can contact us at {pragyan18168, rajivratn}@iiitd.ac.in, mohit.nittrichy@gmail.com and rkumar@haverford.edu
