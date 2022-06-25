@@ -5,7 +5,7 @@ Previous studies have demonstrated that commonly studied (vanilla) touch-based c
 ## Getting Started 
 Please install all the required dependendencies by running the following command:
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ## Experiments
