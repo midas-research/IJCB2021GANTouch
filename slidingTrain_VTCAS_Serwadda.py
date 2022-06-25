@@ -182,7 +182,7 @@ for model in models:
 
     for val in range(1, 137):
         X, y = get_data(val, 3)
-
+        X, y = ADASYN(random_state=0).fit_resample(X, y)
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, stratify = y, random_state=0)
         pickling("X"+str(val)+"_serwadda.pkl", X_test)
         pickling("Y"+str(val)+"_serwadda.pkl", y_test)
