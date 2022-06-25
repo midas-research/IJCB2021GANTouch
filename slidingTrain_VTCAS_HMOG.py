@@ -73,14 +73,6 @@ from authWithGAN import *
 simplefilter(action='ignore', category=FutureWarning)
 simplefilter(action='ignore', category=ConvergenceWarning)
 
-def gen_samples_ctgan(data, no_of_samples, epochs, categorical_cols = []):
-  ctgan = CTGANSynthesizer(verbose = True)
-
-  ctgan.fit(data, categorical_cols, epochs = epochs)
-
-  samples = ctgan.sample(no_of_samples)
-  return samples
-
 def avg_utility(r):
         final = []
         for m in range(len(r[0])):
