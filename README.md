@@ -3,7 +3,7 @@ This repository contains the code for the paper [Defending Touch-based Continuou
 ## Abstract
 Previous studies have demonstrated that commonly studied (vanilla) touch-based continuous authentication systems (V-TCAS) are susceptible to population attack. This paper proposes a novel Generative Adversarial Network assisted TCAS (G-TCAS) framework, which showed more resilience to the population attack. G-TCAS framework was tested on a dataset of 117 users who interacted with a smartphone and tablet pair. On average, the increase in the false accept rates (FARs) for V-TCAS was much higher (22%) than G-TCAS (13%) for the smartphone. Likewise, the increase in the FARs for V-TCAS was 25% compared to G-TCAS (6%) for the tablet. 
 ## Getting Started 
-Please fine the code in below link:
+Please find the code in below link:
 
 https://github.com/midas-research/GANTouch-TBIOM/
 
